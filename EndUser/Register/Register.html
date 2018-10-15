@@ -1,8 +1,50 @@
 <html>
     <head class="top">
-        <title>Flogger</title>
+        <title>Flogger - Register</title>
+        <img src="../../Files/flogger_logo.png" align="right" style="max-height: 100px">
+        <link href="../global.css" type="text/css" rel="stylesheet"/>
+        <link href="Register.css" type="text/css" rel="stylesheet"/>
+        <h1>Register</h1>
+        <h2>The flimsiest family blogging tool available</h2>
+        <hr>
     </head>
-    <body>
-    
+    <body class="middle">
+        <form class="register" action="register.php" method="post">
+            <h3> First name:</h3>
+            <input type="text" name="firstname" required="required"> <br>
+            
+            <h3> Last name:</h3>
+            <input type="text" name="lastname" required="required"> <br>
+            
+            <h3> Other names:</h3>
+            <input type="text" name="othernames" required="required"> <br>
+            
+            <h3> Address Line 1:</h3>
+            <input type="text" name="addressline1" required="required"> <br>
+            
+            <h3> Address line 2:</h3>
+            <input type="text" name="addressline2" required="required"><br>
+            
+            <h3> Post Code:</h3>
+            <input type="text" name="postcode" required="required"><br>
+            
+            <h3> City:</h3>
+            <input type="text" name="city" required="required"><br>
+            
+            <h3 id="Email"> Email:</h3>
+            <input type="email" name="email" required="required"><br>
+            
+            <h3 id="Password"> Password:</h3>
+            <input type="password" name="password" required="required"> <br>
+            
+            <h3 id="ConfirmPassword"> Confirm Password:</h3>
+            <input type="password" name="confirmpassword" required="required"> <br>
+            
+            <input style="margin-top: 2em" type="submit" value="Register">
+        </form>
+        <hr>
     </body>
+    <footer class="bottom">
+        
+    </footer>
 </html>

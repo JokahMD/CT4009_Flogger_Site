@@ -1,8 +1,26 @@
 <html>
     <head class="top">
-        <title>Flogger</title>
+        <title>Flogger - Login</title>
+        <img src="../../Files/flogger_logo.png" align="right" style="max-height: 100px">
+        <link href="../global.css" type="text/css" rel="stylesheet"/>
+        <link href="Login.css" type="text/css" rel="stylesheet"/>
+        <h1>Login</h1>
+        <h2>The flimsiest family blogging tool available</h2>
+        <hr>
     </head>
-    <body>
-    
+    <body class="middle">
+        <form action="login.php" method="get">
+            <h3 id="Email"> Email:</h3>
+            <input type="email" name="email" required="required"><br>
+            
+            <h3 id="Password"> Password:</h3>
+            <input type="password" name="password" required="required"> <br>
+        
+            <input style="margin-top: 2em" type="submit" value="Login">
+        </form>
+        <hr>
     </body>
+    <footer class="bottom">
+        
+    </footer>
 </html>

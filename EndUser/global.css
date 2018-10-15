@@ -1,0 +1,14 @@
+* {
+    
+}
+header.top, h1, h2 {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+body.middle, h3, input{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+body.middle, h3{
+    font-size: 18px;
+}
