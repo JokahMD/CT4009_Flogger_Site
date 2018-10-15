@@ -1,5 +1,35 @@
 # CT4009_Flogger_Site
-CT4009 University of Gloucester work on module CT4009. Creating a site based on assignment 1 for Flogger.
+CT4009 University of Gloucester work on module CT4009. Creating a site based on assignment 1 for a social networking site.
+
+CONDITIONS:
+
+The website users can do the following using the website:
+
+1.     Register (create an account)
+
+2.     Login to the system
+
+3.     Create wall posts including text, images and location (using google map), and like other people’s posts
+
+4.     Send/ receive messages
+
+5.     Block/ unblock and report friends/ other Facebook users
+
+Administrators can do the following using the website:
+
+1.     Login to the system
+
+2.     Delete any user
+
+3.     View a report that shows number of posts made by Website users in a specific week/month/year
+
+4.     View all reports made by Website users and take action such as block a user for 30 days/ ask for identity document etc.
+
+Assessment 1 requires all the data to be stored in a local database (e.g. HTML local storage).
+
+You must write comment (programmer-readable explanation or annotation) in the source code.
+
+-----
 
 REMINDER:
 
