@@ -1,0 +1,4 @@
+AuthName "Members Area"
+AuthType Basic
+AuthUserFile /home/aalam/public_html/Project_Folder/.htpasswd
+require valid-user
